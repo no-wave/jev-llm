@@ -1,0 +1,16 @@
+# 노트북 환경 (로컬 LLM 은 transformers 로 노트북 안에서 직접 올린다. 서빙 엔진은 쓰지 않는다)
+numpy
+pandas
+matplotlib
+koreanize-matplotlib
+scikit-learn
+scipy
+pyarrow
+requests
+python-dotenv
+torch
+transformers>=4.56
+accelerate
+laya[serve]>=0.4.7
+langgraph>=0.2
+jupyter
